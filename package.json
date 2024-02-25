@@ -2,6 +2,15 @@
   "name": "oss-tokyoclient",
   "version": "1.0.0",
   "description": "A Typescript client library for connecting to a Tokyo game server and controlling a ship in the game.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haongo138/oss-tokyoclient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haongo138/oss-tokyoclient/issues"
+  },
+  "author": "Hao Ngo <haoxray@gmail.com>",
+  "license": "MIT",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
@@ -14,8 +23,6 @@
     "format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "start:example": "npm run build && node examples/simple-bot.js"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.6",
     "@types/ws": "^8.5.7",
